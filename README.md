@@ -18,7 +18,7 @@ Note I have disabled react yellow box warnings in the index.js for testing purpo
 
 See the sample output below to see where I successfully send 2 responses to our bot before expiring the token and send a valid response but fails because of token expiry.
 
-I then my entire history back x2 and then 3x connections are active after directline recovers.
+I then received my entire history back ( x2 ) and then ( 3x ) connections are active after directline recovers.
 
 # Sample output
 <pre>
