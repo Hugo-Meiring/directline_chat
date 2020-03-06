@@ -1,12 +1,27 @@
-# Setup
+# Setup - React Native project testing Directline
 
-This has been tested with iOS (Android should also work fine)
+This has been tested with iOS + Android
+
 
 1. Clone project
 2. In `App.js` replace line 166: *'https://<< token generation endpoint >>'* with your token generation endpoint 
 3. Run `yarn && yarn start` in the root of the project
+
+For iOS
+
 4. In a second terminal `cd ios` and run `pod install` 
-5. Run `yarn ios`
+5. Run in this second terminal as well `yarn ios`
+
+> Ensure you have the following tools to run iOS: <br/>
+> Macbook, Xcode, Nodejs
+
+For Android
+
+4. In a second terminal `yarn android`
+
+
+> Ensure you have the following tools to run Android:<br/>
+> Android studion, Nodejs
 
 # Structure
 

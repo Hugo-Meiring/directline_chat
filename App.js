@@ -5,8 +5,8 @@ import { GiftedChat } from 'react-native-gifted-chat'
 import emojiUtils from 'emoji-utils'
 
 import SlackMessage from './SlackMessage'
-import { DirectLine, ConnectionStatus } from './directline/directLine'
-// import { DirectLine, ConnectionStatus } from 'botframework-directlinejs'
+// import { DirectLine, ConnectionStatus } from './directline/directLine'
+import { DirectLine, ConnectionStatus } from 'botframework-directlinejs'
 
 
 export default class App extends React.Component {
